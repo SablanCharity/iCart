@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap');
+
+body{
+        background-color:#FFFEFE;
+        display: inline;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+      .sign{
+        background-color: #F6ECF9;
+        width: 420px;
+        height: 575px;
+        padding: 10px 0px 0px 35px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.477);
+        margin: 20px auto;
+    }
+    h1 {
+       text-align: left;
+       margin: 0px 10px 0px 15px;
+       font-family: "Nunito", sans-serif;
+       font-weight: 800;
+       font-size: 32px;
+       color: #43085C;
+       
+    }
+
+    h3 {
+        margin: 0px 20px 30px 15px;
+        text-align: left;
+        font-family: "Nunito", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        color: #3a094f88;
+    }
+
+     input[type=text], input[type=email], input[type=password] {
+        width: 300px;
+        height: 50px;
+        margin: 0px 0px 8px 40px;
+        border: none;
+        border-radius: 10px;
+        padding: 20px;
+        padding-left: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Nunito", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+
+    }
+       .mail{
+        background-image: url(img/mail.png);
+        background-repeat: no-repeat;
+        background-position: 20px;
+        background-size: 20px;
+    }
+
+    .password{
+        background-image: url(img/pass.png);
+        background-repeat: no-repeat;
+        background-position: 20px;
+        background-size: 20px;
+    }
+
+     button{
+        width: 250px;
+        height: 36px;
+        margin: 50px 63px 100px 63px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #43085C;
+        border-radius: 10px;
+        color: white;
+        font-size: 15px;
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+    }
+
+     p{
+        font-family: "Nunito", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #3a094f6b;
+        margin: 10px 40px 0px 0px;
+    }
+
+    a{
+        font-family: "Nunito", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        text-decoration: none;
+        color: #43085C;
+        font-weight: 800;
+    }
+
+    @media (max-width:600px) {
+
+        body{
+        background-color:#FFFEFE;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;}
+
+}
+    .options {
+        display: flex;
+        justify-content: flex-start;
+        gap: 60px;
+        align-items: center;
+        font-size: 14px;
+        margin: 5px 0 12px 40px;
+        color: #43085C;
+    }
+
+    .options a {
+       color: #43085C;
+       font-weight: 700;
+       text-decoration: none;
+}
+
+    .options label {
+       display: flex;
+       align-items: center;
+       font-family: "Nunito", sans-serif;
+       gap: 5px; 
+       font-weight: 500;
+}
+
+    .options input[type="checkbox"] {
+       width: 16px;
+       height: 15px;
+       accent-color: #43085C;
+       cursor: pointer;
+}
+
+    button{
+        width: 200px;
+        height: 35px;
+        margin: 30px 63px 0px 90px;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #43085C;
+        border-radius: 8px;
+        color: white;
+        font-size: 15px;
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+    
+    }
+
+    .logo {
+        width: 180px;         
+        margin: 40px auto 20px auto;  
+        margin-left: 10px;
+        display: block;       
+    }
