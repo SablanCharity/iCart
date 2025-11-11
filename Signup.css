@@ -150,6 +150,64 @@
     .ggl, .fb {
         display: inline-block;
     }
+    
+    @media (max-width: 767px) {
+
+    .logo {
+        width: 126px;
+        height: 47.5px;
+        margin: 10% 2% auto;
+    }
+
+    .sign {
+        width: 80%;                 
+        height: auto;              
+        margin: 5% auto;         
+        padding: 5% 5%;             
+    }
+
+    h1 {
+        font-size: 24px;           
+        margin: 20px 0 5px 5px; 
+        text-align: center;        
+    }
+
+    h3 {
+        font-size: 14px;
+        margin: 0 0 20px 0;
+        text-align: center;        
+    }
+
+    input[type=text], input[type=email], input[type=password] {
+        width: 90%;
+        margin: 0 auto 15px auto;  
+        font-size: 14px;
+        padding-left: 45px;
+        height: 5%;
+    }
+
+    button {
+        width: 80%;
+        height: 4%;
+        margin: 10px auto;
+        font-size: 14px;
+    }
+
+    .or hr {
+        width: 90px;              
+    }
+
+    .links {
+        flex-direction: row;     
+        gap: 15px;
+    }
+
+    .ggl, .fb {
+        width: 10%;               
+        text-align: center;
+    }
+}
+
 
     
    
